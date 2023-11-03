@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.dark-heading {
+  font-family: 'roboto';
+  color: white;
+}
+.light-heading {
+  color: black;
+  font-family: 'roboto';
+}
+.dark-button {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  height: 30px;
+}
+.light-button {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+  cursor: pointer;
+  height: 30px;
+  border-style: solid;
+}
+.dark-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+  margin-bottom: auto;
+  align-self: center;
+}
+.light-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 160px;
+  margin-bottom: auto;
+  align-self: center;
+}
